@@ -190,3 +190,12 @@ h2 {
 
 
 /* start footer  */
+
+.footer_container {
+    display: flex;
+    gap: 5%;
+}
+
+.footer_element {
+    flex-basis: calc(90% / 5);
+}
