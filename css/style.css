@@ -7,8 +7,12 @@ body {
 .button {
     padding:5px 10px;
     border-style: none;
+    color: white;
 }
 
+.blue {
+    background-color: #0061fe;
+}
 
 
 /* start header section */
@@ -43,6 +47,7 @@ header {
 
 .light_blue {
     background-color: #b4d0e6;
+    position: relative;
 }
 
 .container_80 {
@@ -51,10 +56,36 @@ header {
 }
 
 section div h1 {
-    text-align: center;
     font-size: 3rem;
     font-weight: 900;
-    padding: 2em;
+    padding-block: 1em;
+}
+
+.first_section {
+    display: flex;
 
 }
+
+/* set dimensions of my container  */
+.first_section_text{
+    flex-basis: 40%;
+}
+
+.first_section figure {
+    flex-basis: 60%;
+}
+
+
+.first_section figure img {
+    width: 100%;
+}
+
+.first_section_text > p {
+    padding-bottom: 2em;
+}
+
+.first_section_text p:last-child {
+    padding-top: 2em;
+}
+
 
