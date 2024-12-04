@@ -89,7 +89,7 @@ section div h1 {
     padding-bottom: 2em;
 }
 
-.first_section_text p:last-child {
+.first_section_text .last_text{
     padding-top: 2em;
 }
 
@@ -128,5 +128,26 @@ h2 {
     align-items: center;
 }
 
+/* start second section table  */
 
+.second_section {
+    display: flex;
+    justify-content: center;
+}
 
+.main_column {
+    flex-basis:calc(100% / 3);
+}
+
+/* start third section  */
+.third_section {
+    display: flex;
+}
+
+.button_left {
+    flex-basis: 70%;
+}
+
+.button_right {
+    flex-basis: 30%;
+}
