@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+}
+
+/* more common classes  */
+
+.button {
+    padding:5px 10px;
+    border-style: none;
+}
+
+
+
+/* start header section */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #b4d0e6;
+}
+
+.left_header {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.left_header figure img{
+    display: block;
+}
+
+.right_header {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+/* start main sections  */
+
+.light_blue {
+    background-color: #b4d0e6;
+}
+
+.container_80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section div h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 2em;
+
+}
+
