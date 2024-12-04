@@ -151,3 +151,23 @@ h2 {
 .button_right {
     flex-basis: 30%;
 }
+
+/* start fourth section  */
+
+.fourth_section {
+    display: flex;
+
+}
+
+.fourth_section_text {
+    flex-basis: 40%;
+}
+
+.fourth_section figure {
+    flex-basis: 60%;
+}
+
+.fourth_section figure img {
+    width: 100%;
+}
+
