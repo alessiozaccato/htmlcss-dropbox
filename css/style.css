@@ -171,3 +171,17 @@ h2 {
     width: 100%;
 }
 
+/* start fifth section  */
+
+.fifth_section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fifth_section figure img {
+    width: 100%;
+}
+
+.fifth_section_element {
+    flex-basis: calc(100% / 3);
+}
