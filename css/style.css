@@ -166,13 +166,19 @@ h2 {
     border-bottom: 1px solid #d0d0d2;
 }
 
+.bottom_column {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
 .main_column h3 {
-    padding: 15px;
+    padding-top: 10px;
+    padding-inline: 15px;
 }
 
 .main_column .price {
     padding-inline: 15px;
-    padding-bottom: 10px;
 }
 
 
@@ -182,26 +188,23 @@ h2 {
 
 .month {
     padding-inline: 15px;
-    padding-bottom: 10px;
 }
 
 .main_column figure {
     padding-inline: 15px;
-    padding-block: 10px;
 }
 
 .main_column button {
     margin: 15px;
+    max-width: 70%;
 }
 
 .main_column .buynow {
     padding-inline: 15px;
-    padding-bottom: 10px;
 }
 
 .main_column .main_point {
     padding-inline: 15px;
-    padding-top: 10px;
     font-weight: bold;
 
 }
