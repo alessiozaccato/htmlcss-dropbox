@@ -352,3 +352,9 @@ footer {
    margin-bottom: 20px;
 }
 
+/* hover effect on buttons */
+
+.button:hover {
+    background-color: grey;
+    cursor: pointer;
+}
