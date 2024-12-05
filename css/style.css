@@ -259,11 +259,26 @@ h2 {
 
 .fourth_section {
     display: flex;
+    margin-bottom: 3em;
 
 }
 
 .fourth_section_text {
     flex-basis: 40%;
+    padding: 30px;
+}
+
+.fourth_section_text_description {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.fourth_section_text_description button {
+    border: 1px solid black;
+    background-color: #fff;
+    color:black;
+    max-width: 70%;
 }
 
 .fourth_section figure {
@@ -279,6 +294,7 @@ h2 {
 .fifth_section {
     display: flex;
     flex-wrap: wrap;
+    gap: 1em;
 }
 
 .fifth_section figure img {
@@ -286,11 +302,18 @@ h2 {
 }
 
 .fifth_section_element {
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100% / 3 - 1em);
+}
+
+.fifth_section_element h3 {
+    margin-bottom: 1em;
 }
 
 /* start six section  */
 
+.six_section {
+    margin-block: 5em;
+}
 
 /* start footer  */
 
