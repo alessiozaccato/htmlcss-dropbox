@@ -151,8 +151,8 @@ h2 {
 
 .second_section {
     display: flex;
-    justify-content: center;
     gap: 1em;
+    justify-content: space-between;
 }
 
 .main_column {
@@ -169,7 +169,8 @@ h2 {
 .bottom_column {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap:1em;
+    padding-block: 20px;
 }
 
 .main_column h3 {
@@ -190,7 +191,7 @@ h2 {
     padding-inline: 15px;
 }
 
-.main_column figure {
+.bottom_column figure {
     padding-inline: 15px;
 }
 
@@ -222,16 +223,36 @@ h2 {
 
 
 /* start third section  */
+.header_column_bottom {
+    text-align: center;
+    margin-top: 1em;
+    border: 1px solid #d0d0d2;
+    padding-block: 10px;
+}
+
 .third_section {
     display: flex;
+    margin-bottom: 6em;
 }
 
 .button_left {
     flex-basis: 70%;
+    border-bottom:1px solid #d0d0d2;
+    border-left:1px solid #d0d0d2;
+}
+
+.button_left_description {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 15px;
 }
 
 .button_right {
     flex-basis: 30%;
+    padding: 15px;
+    border-right: 1px solid #d0d0d2;
+    border-bottom:1px solid #d0d0d2;
 }
 
 /* start fourth section  */
