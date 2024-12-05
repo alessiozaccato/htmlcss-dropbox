@@ -317,11 +317,38 @@ h2 {
 
 /* start footer  */
 
+footer {
+    background-color: black;
+    color: #fff;
+}
+
 .footer_container {
     display: flex;
     gap: 5%;
+    padding: 15px;
 }
 
 .footer_element {
     flex-basis: calc(90% / 5);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
+
+.footer_element h3 {
+    margin-bottom: 10px;
+}
+
+.footer_element > p {
+    color: #e4e4dd;
+}
+
+.bottom_footer {
+    padding: 15px;
+}
+
+.bottom_footer hr {
+   width: 20%;
+   margin-bottom: 20px;
+}
+
